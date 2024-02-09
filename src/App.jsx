@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import KeywordSection from './components/KeywordSection'
@@ -15,6 +16,7 @@ function App() {
     <LinkSection />
     <Quotes />
     <SignUp />
+    <Footer />
     </main>
   )
 }
