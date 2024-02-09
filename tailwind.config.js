@@ -5,7 +5,24 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'system-ui'],
+      'serif': ['ui-serif', 'Georgia'],
+      'mono': ['ui-monospace', 'SFMono-Regular'],
+      'display': ['Raleway'],
+    },
+    extend: {
+      colors: {
+        'bg': '#181F2B',
+        'lightbg': '#202A3C',
+        'linear1': '#63E1D9',
+        'linear2': '#34A0CD',
+        'neon': '#62E0D9',
+      },
+      backgroundImage: {
+        'bgcurve': "url('./assets/bgimg.png')",
+      }
+    },
   },
   plugins: [],
 }
