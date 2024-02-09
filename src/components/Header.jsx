@@ -3,9 +3,9 @@ import logo from "../assets/logo.png"
 
 function Header() {
   return (
-    <nav className='bg-lightbg flex justify-between px-5 pt-6 pb-12 md:px-20'>
+    <nav className='bg-lightbg flex justify-between px-5 pt-6 pb-12 lg:px-20'>
         <img className='h-6 w-20' src={logo} alt='logo' />
-        <ul className='flex text-white font-display gap-6 md:gap-14'>
+        <ul className='flex text-white font-display gap-6 lg:gap-14'>
             <li>Features</li>
             <li>Team</li>
             <li>Sign In</li>
