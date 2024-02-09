@@ -4,8 +4,8 @@ import linkbtn from "../assets/linkbtn.png"
 
 function LinkSection() {
   return (
-    <section className='text-white font-display mx-6 flex flex-col items-center mb-40'>
-        <img className='mb-12' src={linkimg} alt='linkimg' />
+    <section className='text-white font-display mx-6 flex flex-col items-center mb-40 md:flex-row md:justify-center md:gap-14 md:mx-24'>
+        <img className='mb-12 md:w-1/2' src={linkimg} alt='linkimg' />
         <div className='flex flex-col'>
             <h2 className='mb-4'>Stay productive, wherever you are</h2>
             <p className=''>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>

@@ -6,9 +6,9 @@ import profile3 from "../assets/profile3.png"
 
 function Quotes() {
   return (
-    <section className='mx-12 text-white font-display mb-40'>
-        <img className='' src={quote} alt='quote'/>
-        <div className='bg-lightbg py-6 px-5 rounded mb-6'>
+    <section className='mx-12 text-white font-display md:flex md:gap-10 md:mx-40'>
+        <img className='md:h-4' src={quote} alt='quote'/>
+        <div className='bg-lightbg py-6 px-5 rounded mb-6 md:h-52'>
             <p className='q font-sans italic mb-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
             <div className='flex items-center gap-2'>
                 <img className='h-6' src={profile1} alt='profile1' />
@@ -18,7 +18,7 @@ function Quotes() {
                 </div>
             </div>
         </div>
-        <div className='bg-lightbg py-6 px-5 rounded mb-6'>
+        <div className='bg-lightbg py-6 px-5 rounded mb-6 md:h-52'>
             <p className='q font-sans italic mb-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
             <div className='flex items-center gap-2'>
                 <img className='h-6' src={profile2} alt='profile2' />
@@ -28,7 +28,7 @@ function Quotes() {
                 </div>
             </div>
         </div>
-        <div className='bg-lightbg py-6 px-5 rounded'>
+        <div className='bg-lightbg py-6 px-5 rounded md:h-52'>
             <p className='q font-sans italic mb-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
             <div className='flex items-center gap-2'>
                 <img className='h-6' src={profile3} alt='profile3' />

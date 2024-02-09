@@ -18,9 +18,11 @@ export default {
         'linear1': '#63E1D9',
         'linear2': '#34A0CD',
         'neon': '#62E0D9',
+        'bg-footer': '#0B1524',
       },
       backgroundImage: {
         'bgcurve': "url('./assets/bgimg.png')",
+        'bgcurve-desktop': "url('./assets/bgimg-desktop.png')",
       }
     },
   },
