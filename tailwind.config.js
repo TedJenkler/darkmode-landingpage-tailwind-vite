@@ -19,6 +19,7 @@ export default {
         'linear2': '#34A0CD',
         'neon': '#62E0D9',
         'bg-footer': '#0B1524',
+        'hover': '#8ADAE3',
       },
       backgroundImage: {
         'bgcurve': "url('./assets/bgimg.png')",

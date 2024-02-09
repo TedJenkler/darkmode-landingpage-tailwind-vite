@@ -10,7 +10,7 @@ function Hero() {
         </div>
         <div className='bg-bg px-10'>
             <p className='font-display mb-8 lg:px-80'>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
-            <button className='font-display bg-gradient-to-r from-linear1 to-linear2 px-20 py-3 rounded-full' >Get Started</button>
+            <button className='font-display bg-gradient-to-r from-linear1 to-linear2 px-20 py-3 rounded-full hover:from-hover hover:to-hover' >Get Started</button>
         </div>
     </section>
   )

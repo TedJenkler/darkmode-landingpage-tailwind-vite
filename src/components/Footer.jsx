@@ -32,15 +32,15 @@ function Footer() {
             </div>
         </div>
         <ul className='flex flex-col gap-4 mb-12'>
-            <li>About Us</li>
-            <li>Jobs</li>
-            <li>Press</li>
-            <li>Blog</li>
+            <li className='hover:text-hover'>About Us</li>
+            <li className='hover:text-hover'>Jobs</li>
+            <li className='hover:text-hover'>Press</li>
+            <li className='hover:text-hover'>Blog</li>
         </ul>
         <ul className='flex flex-col gap-4 mb-14'>
-            <li>Contact Us</li>
-            <li>Terms</li>
-            <li>Privacy</li>
+            <li className='hover:text-hover'>Contact Us</li>
+            <li className='hover:text-hover'>Terms</li>
+            <li className='hover:text-hover'>Privacy</li>
         </ul>
         <div className='flex justify-center gap-3'>
             <img src={facebook} alt='facebook' />

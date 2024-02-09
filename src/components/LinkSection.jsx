@@ -12,7 +12,7 @@ function LinkSection() {
             <br></br>
             <p className='mb-4'>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
             <div className='w-44'>
-                <a className='text-neon flex gap-2 border-b w-full whitespace-nowrap border-neon pb-1 items-center'>See how Fylo works<img className='h-4' src={linkbtn} alt='linkbtn' /></a>
+                <a className='text-neon flex gap-2 border-b w-full whitespace-nowrap border-neon pb-1 items-center hover:text-white hover:border-white'>See how Fylo works<img className='h-4' src={linkbtn} alt='linkbtn' /></a>
             </div>
         </div>
     </section>
